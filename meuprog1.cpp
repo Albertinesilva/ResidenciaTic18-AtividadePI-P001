@@ -4,7 +4,14 @@ using namespace std;
 
 int main()
 {
-    cout << "";
+    string nome;
+
+    cout << "Digite seu nome: ";
+    getline(cin, nome);
+
+    cout << "\nBom dia, "
+         << nome
+         << "!" << endl;
 
     return 0;
 }
